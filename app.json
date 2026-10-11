@@ -4,27 +4,19 @@
     "slug": "series-sector",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#07080c",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#07080c"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "package": "com.seriessector.app",
-      "intentFilters": [
-        {
-          "action": "VIEW",
-          "data": [
-            {
-              "scheme": "seriessector"
-            }
-          ],
-          "category": [
-            "BROWSABLE",
-            "DEFAULT"
-          ]
-        }
-      ]
+      "package": "com.seriessector.app"
     },
     "plugins": [
       "expo-router",
