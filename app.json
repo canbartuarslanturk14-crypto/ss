@@ -1,34 +1,41 @@
 {
-  "expo": {
-    "name": "Series Sector",
-    "slug": "series-sector",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
-    "backgroundColor": "#07080c",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#07080c"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "package": "com.seriessector.app"
-    },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-av",
-        {
-          "microphonePermission": false
-        }
-      ]
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
-  }
+"expo": {
+"name": "Series Sector",
+"slug": "series-sector",
+"version": "1.0.2",
+"orientation": "portrait",
+"icon": "./assets/icon.png",
+"userInterfaceStyle": "dark",
+"backgroundColor": "#07080c",
+"splash": {
+"image": "./assets/splash.png",
+"resizeMode": "contain",
+"backgroundColor": "#07080c"
+},
+"ios": {
+"supportsTablet": true,
+"bundleIdentifier": "com.seriessector.app"
+},
+"android": {
+"package": "com.seriessector.app",
+"versionCode": 3,
+"adaptiveIcon": {
+"foregroundImage": "./assets/adaptive-icon.png",
+"backgroundColor": "#07080c"
+},
+"edgeToEdgeEnabled": true
+},
+"plugins": [
+"expo-router",
+[
+"expo-av",
+{
+"microphonePermission": false
+}
+]
+],
+"experiments": {
+"typedRoutes": true
+}
+}
 }
